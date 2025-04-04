@@ -1,5 +1,17 @@
 package main
 
+import "fmt"
+
 func main() {
-	// TODO
+	language := "Go"
+
+	if language == "Java" {
+		fmt.Println("language is Java")
+	} else if language == "C" {
+		fmt.Println("language is C")
+	} else if language == "C++" {
+		fmt.Println("language is C++")
+	} else {
+		fmt.Println("language is not Java, C, C++")
+	}
 }
